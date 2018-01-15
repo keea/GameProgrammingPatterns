@@ -5,4 +5,3 @@ public:
 	virtual ~Command() {};
 	virtual void execute() = 0;
 };
-

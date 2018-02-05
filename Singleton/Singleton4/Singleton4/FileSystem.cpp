@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 *
 * @file		FileSystem.cpp
 * @date     Thu Feb  1 14:11:45 2018
@@ -11,10 +11,10 @@
 
 
 FileSystem::FileSystem()
-{
+{ 
 	assert(!instantiated);
 	instantiated = true;
-	printf("FileSystem »ı¼º \r\n");
+	printf("FileSystem ìƒì„± \r\n");
 }
 
 
@@ -24,7 +24,7 @@ FileSystem::~FileSystem()
 }
 
 void FileSystem::Test() {
-	printf("Å×½ºÆ® \r\n");
+	printf("í…ŒìŠ¤íŠ¸ \r\n");
 }
 
 bool FileSystem::instantiated = false;

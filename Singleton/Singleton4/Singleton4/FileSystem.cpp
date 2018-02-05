@@ -14,7 +14,7 @@ FileSystem::FileSystem()
 {
 	assert(!instantiated);
 	instantiated = true;
-	printf("FileSystem 생성 \r\n");
+	printf("FileSystem 생성\r\n");
 }
 
 
@@ -24,7 +24,7 @@ FileSystem::~FileSystem()
 }
 
 void FileSystem::Test() {
-	printf("테스트 \r\n");
+	printf("테스트\r\n");
 }
 
 bool FileSystem::instantiated = false;

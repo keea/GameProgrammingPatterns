@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 *
 * @file		main.cpp
 * @date     Mon Feb 12 11:36:43 2018
@@ -27,7 +27,7 @@ void main() {
 	harry->Slap();
 	stage.Update();
 
-	printf("\r\n=========¸ÛÃ»ÇÑAI=========\r\n\r\n");
+	printf("\r\n=========ë©ì²­í•œAI=========\r\n\r\n");
 	stage.Add(harry, 2);
 	stage.Add(baldy, 1);
 	stage.Add(chump, 0);

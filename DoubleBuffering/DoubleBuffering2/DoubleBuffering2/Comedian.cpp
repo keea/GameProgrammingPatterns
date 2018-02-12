@@ -14,6 +14,7 @@ void Comedian::Face(Actor * actor) {
 
 void Comedian::Update() {
 	if (WasSlapped()) {
+		printf("%s가 따귀를 맞았다.\r\n", GetName());
 		printf("%s는 %s를 때린다.\r\n\r\n", GetName() ,facing->GetName());
 		facing->Slap();
 	}

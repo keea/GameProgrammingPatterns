@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 *
 * @file		Comedian.cpp
 * @date     Mon Feb 12 11:34:32 2018
@@ -14,7 +14,7 @@ void Comedian::Face(Actor * actor) {
 
 void Comedian::Update() {
 	if (WasSlapped()) {
-		printf("%s´Â %s¸¦ ¶§¸°´Ù.\r\n\r\n", GetName() ,facing->GetName());
+		printf("%sëŠ” %së¥¼ ë•Œë¦°ë‹¤.\r\n\r\n", GetName() ,facing->GetName());
 		facing->Slap();
 	}
 }
